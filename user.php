@@ -13,6 +13,7 @@
             $forbittenWords = str_replace($censoredWords, '***', $text);
         ?>
         <pre>
+            <h1><?php echo $text ?></h1>
             <h1><?php var_dump($forbittenWords); ?></h1>
         </pre>
 </body>
